@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="int20h_two.Views.Register_2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>            
+        </Grid.ColumnDefinitions>
+        <Label Text="Problems" Grid.ColumnSpan="2" Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="30"/>
+        <CheckBox Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox Grid.Column="0" Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox Grid.Column="0" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox Grid.Column="0" Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center"/>
+        
+        <Label Text="Back" Grid.Column="1" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
+        <Label Text="Legs" Grid.Column="1" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
+        <Label Text="Neck" Grid.Column="1" Grid.Row="3" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
+        <Label Text="Eyes" Grid.Column="1" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
+        <Label Text="Full" Grid.Column="1" Grid.Row="5" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
+
+        <Button x:Name="prob_Done_button" Text="Done" Grid.ColumnSpan="2" Grid.Row="7" Clicked="prob_Done_button_Clicked"/>
+
+
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="int20h_two.Views.Register_1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Weight" HorizontalOptions="Center" FontSize="25"/>
+            <Entry x:Name="weight_entry"/>
+            <Label Text="Age" HorizontalOptions="Center" FontSize="25"/>
+            <Entry x:Name="age_entry"/>            
+            <Button Text="Done" Clicked="Done_Clicked"/>
+            <Label Text="Please enter all info !" TextColor="Red" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" IsVisible="False"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
