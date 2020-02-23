@@ -1,0 +1,22 @@
+﻿^contentpage {
+    background-color: lightcyan;
+}
+
+stacklayout {
+    margin: 15;
+    padding: 10;
+}
+
+label {
+    display: inline;
+    position: relative;
+    font-size: 70;
+    font: Helvetica, Sans-Serif;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 5px red;
+    letter-spacing: 2px;
+    color: rgba(0,0,255,0.5);
+}
+body
+{
+}
