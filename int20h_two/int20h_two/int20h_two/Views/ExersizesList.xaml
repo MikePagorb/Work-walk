@@ -5,11 +5,25 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="int20h_two.Views.ExersizesList">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>            
+       </Grid.ColumnDefinitions>
+        <Label x:Name="Lb_1" Text=" 1 " Grid.Row="0" Grid.Column="0" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="Lb_2" Text=" 2 " Grid.Row="1" Grid.Column="0"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="Lb_3" Text=" 3 " Grid.Row="2" Grid.Column="0"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="Lb_4" Text=" 4 " Grid.Row="3" Grid.Column="0" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        
+        <Button x:Name="GO_1" Text=">" Grid.Row="0" Grid.Column="1"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GO_1_Clicked"/>
+        <Button x:Name="GO_2" Text=">" Grid.Row="1" Grid.Column="1"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GO_2_Clicked"/>
+        <Button x:Name="GO_3" Text=">" Grid.Row="2" Grid.Column="1" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GO_3_Clicked"/>
+        <Button x:Name="GO_4" Text=">" Grid.Row="3" Grid.Column="1"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GO_4_Clicked"/>
+    </Grid>
 </ContentPage>

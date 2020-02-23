@@ -15,6 +15,27 @@ namespace int20h_two.Views
         public ExersizesList()
         {
             InitializeComponent();
+            
+        }
+
+        private void GO_1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GO_2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GO_3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GO_4_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
