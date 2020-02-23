@@ -25,11 +25,11 @@
             <ColumnDefinition Width="*"/>            
         </Grid.ColumnDefinitions>
         <Label Text="Problems" Grid.ColumnSpan="2" Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="30"/>
-        <CheckBox Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"/>
-        <CheckBox Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center"/>
-        <CheckBox Grid.Column="0" Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center"/>
-        <CheckBox Grid.Column="0" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"/>
-        <CheckBox Grid.Column="0" Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox x:Name="ch_1" Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox x:Name="ch_2" Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox x:Name="ch_3" Grid.Column="0" Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox x:Name="ch_4" Grid.Column="0" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <CheckBox x:Name="ch_5" Grid.Column="0" Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center"/>
         
         <Label Text="Back" Grid.Column="1" Grid.Row="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
         <Label Text="Legs" Grid.Column="1" Grid.Row="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
@@ -37,7 +37,7 @@
         <Label Text="Eyes" Grid.Column="1" Grid.Row="4" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
         <Label Text="Full" Grid.Column="1" Grid.Row="5" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="25"/>
 
-        <Button x:Name="prob_Done_button" Text="Done" Grid.ColumnSpan="2" Grid.Row="7" Clicked="prob_Done_button_Clicked"/>
+        <Button StyleId ="result" x:Name="prob_Done_button" Text="Done" Grid.ColumnSpan="2" Grid.Row="7" Clicked="prob_Done_button_Clicked"/>
 
 
 

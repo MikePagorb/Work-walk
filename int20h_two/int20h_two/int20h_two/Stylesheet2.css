@@ -20,32 +20,20 @@ stacklayout {
     color: azure;
     background-color: deeppink;
     border: none;
-    padding: 30 70;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30;
-    margin: 4 2;
     cursor: pointer;
 }
-#result {
-    color: azure;
-    background-color: deeppink;
-    border: none;
-    padding: 30 70;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30;
-    margin: 4 2;
-    cursor: pointer;
-}
+
+
 ^Entry {
     font-size: 30;
     background-color: white;
     margin: 10 0;
     color: #0A100D;
 }
-body
-{
+
+body {
 }

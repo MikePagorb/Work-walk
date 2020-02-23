@@ -12,15 +12,16 @@ namespace int20h_two.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ExersizesList : ContentPage
     {
-        public ExersizesList()
+        public ExersizesList(string index)
         {
             InitializeComponent();
             
         }
 
-        private void GO_1_Clicked(object sender, EventArgs e)
+        private async void GO_1_Clicked(object sender, EventArgs e)
         {
-
+            Ex1 page1 = new Ex1();
+            await Navigation.PushAsync(page1);
         }
 
         private void GO_2_Clicked(object sender, EventArgs e)
