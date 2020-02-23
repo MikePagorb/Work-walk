@@ -15,10 +15,11 @@ stacklayout {
     font-size: 70;
     color: navajowhite;
 }
-^Button.primary {
-    background-color: #4CAF50;
-    border: none;
+
+^Button {
     color: white;
+    background-color: deeppink;
+    border: none;
     padding: 30 70;
     text-align: center;
     text-decoration: none;

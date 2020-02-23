@@ -15,7 +15,7 @@
         <Label Text="Let`s go !" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="GO" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+        <Button StyleClass="primary" Text="GO" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
     </StackLayout>
 
 </ContentPage>

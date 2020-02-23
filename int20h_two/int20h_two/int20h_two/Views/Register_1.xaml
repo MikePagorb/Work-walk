@@ -5,6 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="int20h_two.Views.Register_1">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Stylesheet1.css"/>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Weight" HorizontalOptions="Center" FontSize="25"/>
