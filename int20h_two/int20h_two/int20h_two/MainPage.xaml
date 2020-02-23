@@ -6,6 +6,10 @@
              mc:Ignorable="d"
              x:Class="int20h_two.MainPage">
 
+    <ContentPage.Resources>
+        <StyleSheet Source="/AppStyle.css"/>
+    </ContentPage.Resources>
+
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Let`s go !" 
