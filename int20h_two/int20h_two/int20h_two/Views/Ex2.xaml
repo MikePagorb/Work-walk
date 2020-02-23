@@ -4,10 +4,6 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="int20h_two.Views.Ex1">
-
-
-    <Image Source="int20h_two.IMG_20200223_034923.png"/>
-       
-    
+             x:Class="int20h_two.Views.Ex2">
+    <Image Source="int20h_two.IMG_20200223_064343.png"/>
 </ContentPage>
