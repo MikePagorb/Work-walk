@@ -50,6 +50,7 @@ namespace int20h_two
             {
                 // You have weight problems. You need medica advice!
             }
+         
         }
         DataUserProcessing(int weightBody, int ageOfPerson, string PersonProblem)
         {
